@@ -1,0 +1,21 @@
+Docker version 29.7.2, build a7dcaa6
+IMAGE                             ID             DISK USAGE   CONTENT SIZE   EXTRA
+alpine:latest                     28bd5fe8b56d         13MB         3.93MB   U    
+docker/welcome-to-docker:latest   c4d56c24da4f       22.2MB         6.03MB        
+docker:latest                     12e683a16182        539MB          145MB   U    
+hello-world:latest                7f4da0fc94bc       25.9kB         9.49kB   U    
+infratify/card:latest             2414f6668e83         81MB         23.1MB   U    
+nginx:alpine                      4a73073bd557       93.6MB           27MB        
+nginx:latest                      8541484afbc9        241MB           66MB   U    
+CONTAINER ID   IMAGE            COMMAND                  CREATED        STATUS                    PORTS                                     NAMES
+9db886697bbb   docker           "dockerd-entrypoint.…"   2 hours ago    Created                                                             bold_einstein
+564787a9e95c   infratify/card   "/docker-entrypoint.…"   2 hours ago    Up 2 hours                0.0.0.0:9091->80/tcp, [::]:9091->80/tcp   kad2
+e53adf899a5c   infratify/card   "/docker-entrypoint.…"   2 hours ago    Up 2 hours                0.0.0.0:9090->80/tcp, [::]:9090->80/tcp   kad1
+93e5e6e3a8d9   nginx            "/docker-entrypoint.…"   14 hours ago   Up 2 hours                0.0.0.0:8080->80/tcp, [::]:8080->80/tcp   web
+cfa3ee3c0bba   nginx            "/docker-entrypoint.…"   23 hours ago   Up 23 hours               80/tcp                                    amazing_williams
+28b7acfe1a65   alpine           "sh"                     23 hours ago   Exited (0) 23 hours ago                                             nervous_raman
+8030570ed3a8   alpine           "sh"                     23 hours ago   Exited (0) 23 hours ago                                             loving_jennings
+f9a3f11feb15   alpine           "sh"                     23 hours ago   Exited (0) 23 hours ago                                             relaxed_noyce
+9faa0b9dbd84   alpine           "echo 'Hello dari Ap…"   25 hours ago   Exited (0) 25 hours ago                                             crazy_wu
+cc07cc900f06   hello-world      "/hello"                 25 hours ago   Exited (0) 25 hours ago                                             laughing_benz
+3e6d6797d8a5   hello-world      "/hello"                 2 days ago     Exited (0) 2 days ago                                               objective_cerf
